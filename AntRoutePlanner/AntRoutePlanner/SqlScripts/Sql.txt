@@ -1,4 +1,7 @@
-﻿USE [AntRoutePlanner]
+﻿CREATE DATABASE [AntRoutePlanner]
+GO
+
+USE [AntRoutePlanner]
 GO
 
 /****** Object:  Table [dbo].[Users]    Script Date: 01/27/2013 11:19:58 ******/
