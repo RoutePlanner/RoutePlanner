@@ -8,19 +8,3 @@ body { font-family:Verdana; font-size:14px; margin:0;}
 #content { margin-left:205px !important; margin-left:202px; height:500px; }/*当content设定高度后，3像素会跑到content外侧，这样，我们用!important修正在ie下向左多浮动2像素，加上3像素的bug正好是5像素，所以在火狐和IE下显示是一样的*/
 * {list-style-type:none; font-size:12px; text-decoration:none; margin:0; padding:0;}
 a {behavior:url(xuxian.htc)}
-.planner {width:438px; height:300px; overflow:hidden; margin:50px auto;}
-.planner_title {width:438px; height:30px; background:#fff url(http://myjs.jz123.cn/inc1/btn_bg.png)  no-repeat; overflow:hidden;}/*http://myjs.jz123.cn/inc1/btn_bg.png*/
-.planner_title li {display:block; float:left; margin:0 2px 0 0; display:inline; text-align:center;}
-.planner_title li a {display:block; width:90px; heigth:30px; line-height:34px; color:#fff;}
-.planner_title li a:hover {color:red; text-decoration:underline;}
-.planner_title_bg1 {background-position:0 0;}
-.planner_title_bg2 {background-position:0 -30px;}
-.planner_title_bg3 {background-position:0 -60px;}
-.planner_title_bg4 {background-position:0 -90px;}
-.planner_con {display:block; width:430px; height:260px; background:url() no-repeat 0 0; overflow:hidden; BORDER: #aecbd4 1px solid; }/*/images/20110424/con_bg.png*/
-.planner_con ul {width:418px; height:250px; margin:12px auto;}
-.planner_con li {width:418px; line-height:30px; margin:0 auto; white-space:nowrap; text-overflow:ellipsis; overflow: hidden;}
-.planner_con li a {color:#03c;}
-.planner_con li a:hover {color:#069; text-decoration:underline;}
-.planner_copy {width:438px; margin:10px auto; text-align:center;}
-.planner_copy a {color:#f00;}
